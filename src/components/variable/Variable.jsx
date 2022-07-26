@@ -3,9 +3,9 @@ import {useState} from 'react'
 
 
 function Variable() {
-  const [data, setData] = useState('anil')
+  const [data, setData] = useState(0)
   function updateData(){
-    setData('devil')
+    setData(data+1)
   }
       return (
         <div>
