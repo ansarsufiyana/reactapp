@@ -2,5 +2,16 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(136, 135, 134);
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+
+li{
+  list-style: none;
 }
 
